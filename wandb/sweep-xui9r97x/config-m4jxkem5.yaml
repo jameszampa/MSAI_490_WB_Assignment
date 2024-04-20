@@ -1,0 +1,12 @@
+wandb_version: 1
+
+early_stopping_rounds:
+  value: 30
+gamma:
+  value: 0.9774763383644304
+learning_rate:
+  value: 0.8242529742985232
+min_child_weight:
+  value: 98
+n_estimators:
+  value: 886

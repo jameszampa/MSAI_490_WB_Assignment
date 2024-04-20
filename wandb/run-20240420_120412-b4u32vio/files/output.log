@@ -1,0 +1,48 @@
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 53940 entries, 0 to 53939
+Data columns (total 10 columns):
+ #   Column   Non-Null Count  Dtype
+---  ------   --------------  -----
+ 0   carat    53940 non-null  float64
+ 1   cut      53940 non-null  category
+ 2   color    53940 non-null  category
+ 3   clarity  53940 non-null  category
+ 4   depth    53940 non-null  float64
+ 5   table    53940 non-null  float64
+ 6   price    53940 non-null  int64
+ 7   x        53940 non-null  float64
+ 8   y        53940 non-null  float64
+ 9   z        53940 non-null  float64
+dtypes: category(3), float64(6), int64(1)
+memory usage: 3.0 MB
+RMSE: 532.8838153117543
+[0]	train-rmse:2859.49097	validation-rmse:2851.62630
+[10]	train-rmse:550.99470	validation-rmse:571.16640
+[20]	train-rmse:491.51435	validation-rmse:544.08058
+[30]	train-rmse:464.38845	validation-rmse:537.01895
+[40]	train-rmse:445.99106	validation-rmse:533.85127
+[50]	train-rmse:430.36010	validation-rmse:532.90320
+[60]	train-rmse:418.87898	validation-rmse:533.04629
+[70]	train-rmse:409.66247	validation-rmse:533.58046
+[80]	train-rmse:397.34048	validation-rmse:534.31963
+[90]	train-rmse:389.94294	validation-rmse:532.61946
+[99]	train-rmse:377.70831	validation-rmse:532.88383
+[0]	train-rmse:2859.49097	validation-rmse:2851.62630
+[50]	train-rmse:430.36010	validation-rmse:532.90320
+/home/james/anaconda3/envs/wandb/lib/python3.10/site-packages/xgboost/core.py:160: UserWarning: [12:05:03] WARNING: /workspace/src/common/error_msg.cc:27: The tree method `gpu_hist` is deprecated since 2.0.0. To use GPU training, set the `device` parameter to CUDA instead.
+    E.g. tree_method = "hist", device = "cuda"
+  warnings.warn(smsg, UserWarning)
+/home/james/anaconda3/envs/wandb/lib/python3.10/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+/home/james/anaconda3/envs/wandb/lib/python3.10/site-packages/xgboost/core.py:160: UserWarning: [12:05:03] WARNING: /workspace/src/common/error_msg.cc:27: The tree method `gpu_hist` is deprecated since 2.0.0. To use GPU training, set the `device` parameter to CUDA instead.
+    E.g. tree_method = "hist", device = "cuda"
+  warnings.warn(smsg, UserWarning)
+/home/james/anaconda3/envs/wandb/lib/python3.10/site-packages/xgboost/core.py:160: UserWarning: [12:05:04] WARNING: /workspace/src/common/error_msg.cc:27: The tree method `gpu_hist` is deprecated since 2.0.0. To use GPU training, set the `device` parameter to CUDA instead.
+    E.g. tree_method = "hist", device = "cuda"
+  warnings.warn(smsg, UserWarning)
+[100]	train-rmse:377.56825	validation-rmse:532.79980
+[103]	train-rmse:375.44970	validation-rmse:532.50220
+/home/james/anaconda3/envs/wandb/lib/python3.10/site-packages/xgboost/core.py:160: UserWarning: [12:05:05] WARNING: /workspace/src/common/error_msg.cc:27: The tree method `gpu_hist` is deprecated since 2.0.0. To use GPU training, set the `device` parameter to CUDA instead.
+    E.g. tree_method = "hist", device = "cuda"
+  warnings.warn(smsg, UserWarning)
+[34m[1mwandb[39m[22m: [33mWARNING[39m Calling wandb.login() after wandb.init() has no effect.
